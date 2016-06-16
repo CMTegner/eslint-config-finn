@@ -8,5 +8,6 @@ module.exports = {
 
     rules: {
         'eqeqeq': [ERR, 'smart'],
+        'no-use-before-define': [ERR, { functions: false }]
     }
 };
